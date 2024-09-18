@@ -13,3 +13,8 @@
     :straight t))
 (use-package ess-view
   :after ess)
+
+(use-package quarto-mode
+  :straight t
+  :mode (("\\.Rmd\\'" . poly-quarto-mode))
+  )
